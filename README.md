@@ -62,3 +62,14 @@ Than I run commands:
 >kubectl apply -f k8s/apps/
 >kubectl apply -f k8s/apps/services/
 >kubectl apply -f k8s/observability/
+
+# port forwarding
+
+To run the app we need to ren port forwarding command 
+
+>kubectl port-forward pod/app-a-df857fc6b-vzjdx 8081:3000
+>kubectl port-forward pod/app-b-7478d86548-jz27r 8082:3000
+>kubectl port-forward pod/app-api-69bd6fc98-j8xfz 8083:3000
+
+![alt text](image.png)
+
