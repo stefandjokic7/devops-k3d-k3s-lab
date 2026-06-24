@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: app-a
-          image: 192.168.1.181:6007/app-a:latest
+          image: local-registry.local:6007/app-a:latest
           ports:
             - containerPort: 3000

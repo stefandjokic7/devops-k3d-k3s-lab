@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: app-b
-          image: k3d-local-registry.localhost:6000/app-b:latest
+          image: local-registry.local:6007/app-b:latest
           ports:
             - containerPort: 3000

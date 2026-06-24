@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: app-api
-          image: localhost:6000/app-api:latest
+          image: local-registry.local:6007/app-api:latest
           ports:
             - containerPort: 3000
